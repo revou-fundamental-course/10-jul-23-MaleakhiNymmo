@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0c49f;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  sup{
+    margin: 1px;
+  }
+
+  .kalkulator-container{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebeefa;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  .grup {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .radio-button{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .radio-button label{
+    margin: 5px;
+    margin-right: 10px;
+  }
+
+  #wanita{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  #pria{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+ 
+  .grup-radio input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .grup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .grup-tombol{
+    display: flex;
+    /* gap: 10px; */
+    justify-content: flex-start;
+  }
+
+  .tombol {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color:cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+  #reset{
+    margin-left: 1px;
+    background-color:white;
+    color: rgb(93, 93, 93);
+  }
+
+  .tombol:hover {
+    background-color:mediumpurple;
+  }
+
+  .hasil-container{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebeefa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #hide{
+    display: none;
+}
+  .grup-hasil{
+  display: flex;
+    justify-content: center;
+  }
+
+  #hasilBMI {
+    width: 70%;
+    padding: 10px;
+    background-color:cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #hasilBMI:hover{
+    background-color: mediumpurple;
+  }
+
+  .tombol-download{
+    display: flex;
+    justify-content: center;
+  }
+
+  .keterangan-beratbadan{
+    display: flex;
+    justify-content: center ;
+    margin: 0%;
+  }
+
+  .angka-bmi{
+    display: flex;
+    justify-content: center ;
+    margin: 0%;
+  }
+
+  .keterangan-bmi{
+    display: flex;
+    justify-content: center ;
+    margin: 0%;
+  }
+
+  .input-hasil{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ebeefa;
+    text-align: center;
+  }
+
+  #keterangan-beratbadan{
+    font-size:x-large;
+    font-weight:bold;
+  }
+
+  #angka-bmi{
+    font-size:xx-large;
+    font-weight: bolder;
+  }
+
+  #keterangan-bmi{
+    font-size: larger;
+  }
+
+  .grup-penjelasan{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .penjelasan{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    font-size: medium;
+  }
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  color:rgb(8, 8, 8);
+  font-weight: bold;
+}
